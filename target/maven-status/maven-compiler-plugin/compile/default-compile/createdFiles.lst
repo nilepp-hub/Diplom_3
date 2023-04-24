@@ -1,0 +1,8 @@
+ru\yandex\praktikum\page\ForgotPasswordPage.class
+ru\yandex\praktikum\page\MainPage.class
+ru\yandex\praktikum\config\PageMap.class
+ru\yandex\praktikum\page\RegPage.class
+ru\yandex\praktikum\config\UserTestData.class
+ru\yandex\praktikum\config\UserStatesAPI.class
+ru\yandex\praktikum\page\LoginPage.class
+ru\yandex\praktikum\page\ProfilePage.class

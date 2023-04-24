@@ -14,14 +14,14 @@ import static org.apache.hc.core5.http.HttpStatus.SC_ACCEPTED;
 import static ru.yandex.praktikum.config.UserTestData.*;
 
 public class RegTests {
-    String email;
-    String pass;
-    String name;
-    String passInvalid;
-    String accessToken;
-    PageMap pageMap = new PageMap();
-    RegPage regPage = new RegPage();
-    UserStatesAPI userStatesAPI = new UserStatesAPI();
+    private String email;
+    private String pass;
+    private String name;
+    private String passInvalid;
+    private String accessToken;
+    private PageMap pageMap = new PageMap();
+    private RegPage regPage = new RegPage();
+    private UserStatesAPI userStatesAPI = new UserStatesAPI();
 
     @Before
     public void start() {

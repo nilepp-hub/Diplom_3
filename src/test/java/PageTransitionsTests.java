@@ -15,15 +15,15 @@ import static com.codeborne.selenide.Condition.visible;
 import static io.qameta.allure.Allure.step;
 
 public class PageTransitionsTests {
-    String name;
-    String email;
-    String pass;
-    String accessToken;
-    PageMap pageMap = new PageMap();
-    MainPage mainPage = new MainPage();
-    LoginPage loginPage = new LoginPage();
-    ProfilePage profilePage = new ProfilePage();
-    UserStatesAPI userStatesAPI = new UserStatesAPI();
+    private String name;
+    private String email;
+    private String pass;
+    private String accessToken;
+    private PageMap pageMap = new PageMap();
+    private MainPage mainPage = new MainPage();
+    private LoginPage loginPage = new LoginPage();
+    private ProfilePage profilePage = new ProfilePage();
+    private UserStatesAPI userStatesAPI = new UserStatesAPI();
 
     @Before
     public void start() {

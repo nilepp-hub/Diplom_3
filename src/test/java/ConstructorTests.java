@@ -8,8 +8,8 @@ import ru.yandex.praktikum.config.PageMap;
 import ru.yandex.praktikum.page.MainPage;
 
 public class ConstructorTests {
-    MainPage mainPage = new MainPage();
-    PageMap pageMap = new PageMap();
+    private MainPage mainPage = new MainPage();
+    private PageMap pageMap = new PageMap();
 
     @Before
     public void start() {

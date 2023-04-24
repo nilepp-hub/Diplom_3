@@ -13,15 +13,15 @@ import ru.yandex.praktikum.page.MainPage;
 import ru.yandex.praktikum.page.RegPage;
 
 public class AuthTests {
-    String name;
-    String email;
-    String pass;
-    String accessToken;
-    PageMap pageMap = new PageMap();
-    MainPage mainPage = new MainPage();
-    LoginPage loginPage = new LoginPage();
-    RegPage regPage = new RegPage();
-    ForgotPasswordPage forgotPasswordPage = new ForgotPasswordPage();
+    private String name;
+    private String email;
+    private String pass;
+    private String accessToken;
+    private PageMap pageMap = new PageMap();
+    private MainPage mainPage = new MainPage();
+    private LoginPage loginPage = new LoginPage();
+    private RegPage regPage = new RegPage();
+    private ForgotPasswordPage forgotPasswordPage = new ForgotPasswordPage();
 
     public void startYandex() {
         System.setProperty("webdriver.chrome.driver", "d:\\Webdriver\\bin\\yandexdriver.exe");
